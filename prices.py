@@ -45,7 +45,6 @@ def get_prices(url=None):
 if __name__ == "__main__":
     url = "https://www.renthop.com/managers/pesach-azizo"
     prices = get_prices(url)
-
     print "Total ad prices scraped:", len(prices)
     print 'Price array:', prices
     print 'Second highest price:', prices[-2]

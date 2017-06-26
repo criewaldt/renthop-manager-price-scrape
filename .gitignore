@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# Lambda
+lambda/
+
 # Distribution / packaging
 .Python
 build/

@@ -1,8 +1,9 @@
 # renthop-manager-price-scrape
 
 ### As requested by Lee Lin (RentHop)
+A simple script to scrape all listing prices from a RentHop manager page (single page) and sort them, then output 1) entire price array 2) second highest priced listing scraped.
 
-## Function 
+### Function 
 
 #### get_prices(url=None) 
 

@@ -15,8 +15,8 @@ _If no `url` is passed to `get_prices` function, it will automatically load the 
 >>> p = get_prices()
 >>> print "Total ad prices scraped:", len(p)
 Total ad prices scraped: 20
->>> print 'Price array:', p
+>>> print "Price array:", p
 Price array: [1775, 1899, 1900, 2050, 2075, 2130, 2150, 2195, 2200, 2225, 2295, 2500, 2575, 2750, 2775, 2795, 2800, 2900, 3495, 14250]
->>> print 'Second highest price:', p[-2]
+>>> print "Second highest price:", p[-2]
 Second highest price: 3495
 ```

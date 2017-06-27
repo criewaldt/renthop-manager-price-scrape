@@ -42,7 +42,7 @@ def get_prices(url=None):
         return prices
 
 if __name__ == "__main__":
-    url = "https://www.renthop.com/managers/pesach-azizo"
+    url = "https://www.renthop.com/managers/james-mercure-4"
     prices = get_prices(url)
     print "Total ad prices scraped:", len(prices)
     print 'Price array:', prices

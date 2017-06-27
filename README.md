@@ -7,7 +7,7 @@ A simple script to scrape all listing prices from a RentHop manager page (single
 #### get_prices(url=None) 
 The `get_prices` function takes one parameter `url` as `str` (RentHop manager url) 
 
-_If no `url` is passed to `get_prices` function, it will automatically load the content from `./test/local.html`_ 
+_If no `url` is passed to `get_prices` function, it will automatically load the content from `./sample_data/local.html`_ 
 
 ### Usage
 ```python
